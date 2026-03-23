@@ -1,0 +1,7 @@
+chown
+
+Now I try to use chown command which is stands for change owner command. It is used to change file owner or directory.
+Every file has an owner who is the person who created or owns the file and group who are the collection of users who may access the file.
+As you may see, the group is set to kali who is me or its current directory as seen in the first photo.
+Then I use chown kali:bluetooth command to set me as still its owner or directory and bluetooth as its group or directory too which is seen in the second photo.
+Syntax for chown is: chown [new owner]:[new group] filename

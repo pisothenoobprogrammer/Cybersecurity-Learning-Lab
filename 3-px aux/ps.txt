@@ -1,0 +1,3 @@
+ps
+
+ps aux stands for pcocess state. I used ps aux command and aux stands for a as all users, u for displaying user oriented format like username, cpu %, memory %, etc. And x means it includes processes not attached to a terminal like background daemons.

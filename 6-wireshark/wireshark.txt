@@ -1,0 +1,9 @@
+wireshark
+
+I use now the wireshark, then i try to hide other connections since I just want to analyze my wifi.
+But using wireshark as normal user or non root will give you permissions restriction which make you unable to use wireshark.
+So I open the root and open the terminal there, then access the wireshark from there by entering wireshark command.
+then I filtered the connections again to just show my wifi and start the capture.
+At first I was confuse because there is no packets or something that show in there. Then I realize that I am not yet accessing the internet yet or lan so I start using the mozilla and boom the packets starts coming.
+Theres so many packets that maybe not that important so I filter them and use only port 80 and you can see that there is no anomalies or something in the connections since all packets are successful or in green background.
+To detect anomalies, look for consistent failed packets orred background packets.

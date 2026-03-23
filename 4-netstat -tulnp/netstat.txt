@@ -1,0 +1,5 @@
+netstat
+
+Netstat stands for network statistics. It displays network statistics and connection as seen in the first photo.
+I added -tulnp which for -t to show tcp connections, -u to show udp connections, -l to show listening sockets like services waiting for connections, -n to show addresses and ports as numbers instead of resolving names, -p to show the process id or pid and program name using the socket.
+The normal terminal gives me a warning that not all processes could be identified or something because I dont use the root terminal so in the other terminal, I use root and it dont display the warning now and it shows additional informations.

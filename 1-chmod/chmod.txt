@@ -1,0 +1,17 @@
+chmod
+
+Lets try chmod which stands for change mode. I first created a file which I named file, then I open linux terminal and the file permissions in file properties which as seen in the first screenshot.
+Then I use chmod [owner permission, group permission, other permission] filename command to change the file permission. The permissions are represented in octal or base 8 with three digits.
+First digit is for owner permissions, second digit is for group permissions and the last digit is for others of everyone else.
+Permission values has a table which are these:
+Value	-	Binary(rwx)	-	Meaning
+0		---			no permissions
+1		--x			execute only
+2		-w-			write only
+3		-wx			write + execute
+4		r--			read only
+5		r-x			read + execute
+6		rw-			read + write
+7		rwx			read + write + execute
+
+It means that I set the permissions in file with full feature to me or owner, read and run only for both group and other or everyone else.

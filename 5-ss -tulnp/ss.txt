@@ -1,0 +1,4 @@
+ss
+
+Ss stands for socket statistics. It is used to show detailed info about sockets.
+I use the -tulnp that I use in netstat which can notice the difference between ss and netstat like the ss the a better version of netstat.
