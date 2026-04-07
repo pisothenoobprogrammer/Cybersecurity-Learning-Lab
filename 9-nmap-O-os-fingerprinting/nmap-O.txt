@@ -1,0 +1,4 @@
+I used nmap with -O option to detect operating systems.
+The results indicated that 10.146.125.12(iphone) has apple macos/ios(ventura or ios 16) though my ios version is currently ios 26 so I have a little confusion on this.
+10.146.125.172(android) has android(linux kernel 4.x, android 11/12) which is correct because this phone has android 11.
+10.146.125.25(pc/linux) has inconclusive os detection because of too many fingerprints which I am confused again by what it means.

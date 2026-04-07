@@ -1,0 +1,5 @@
+I ran nmap with the -sV option to detect services and versions.
+The results showed that 10.146.125.12(iphone) had ports 49152/tcp and 62078/tcp(iphone-sync) open.
+10.146.125.172(android) had 53/tcp(dns) open, running dnsmasq.
+10.146.125.25(pc/linux) had no open ports detected.
+This scan revealed what services each device was running.
